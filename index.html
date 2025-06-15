@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crystal Clear Pools</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Primary navigation">
+      <div class="logo" tabindex="0">Crystal Clear Pools</div>
+      <ul>
+        <li><a href="#hero" tabindex="0">О нас</a></li>
+        <li><a href="#services" tabindex="0">Услуги</a></li>
+        <li><a href="#gallery" tabindex="0">Галерея</a></li>
+        <li><a href="#contact" tabindex="0">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" aria-label="Welcome hero section">
+    <div class="hero-content" tabindex="0">
+      <h1>Строительство бассейна Вашей мечты</h1>
+      <p>Профессиональный дизайн, строительство и техническое обслуживание бассейна для вашего оазиса на заднем дворе.</p>
+      <a href="#contact" class="button" tabindex="0">Получите БЕСПЛАТНОЕ предложение</a>
+    </div>
+  </section>
+
+  <section id="services" aria-labelledby="services-title">
+    <div class="container">
+      <h2 id="services-title">Наши Услуги</h2>
+      <div class="services-grid">
+        <article class="service-card" tabindex="0" aria-label="Custom Swimming Pool Designs">
+          <div class="service-icon" aria-hidden="true">🏊‍♂️</div>
+          <h3 class="service-title">Индивидуальный дизайн бассейнов</h3>
+          <p class="service-desc">Индивидуальный дизайн, соответствующий вашему стилю жизни и пространству, превращает ваш задний двор в райский уголок.</p>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Pool Construction and Installation">
+          <div class="service-icon" aria-hidden="true">🔨</div>
+          <h3 class="service-title">Строительство + Установка</h3>
+          <p class="service-desc">Квалифицированные строительные услуги, гарантирующие долговечность, безопасность и красоту, предоставляются в срок и с соблюдением бюджета.</p>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Pool Maintenance and Cleaning">
+          <div class="service-icon" aria-hidden="true">🧹</div>
+          <h3 class="service-title">Поддержка + Уборка</h3>
+          <p class="service-desc">Поддерживайте чистоту и здоровье вашего бассейна круглый год с помощью наших профессиональных услуг по уходу.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" aria-labelledby="gallery-title">
+    <div class="container">
+      <h2 id="gallery-title">Галерея</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/swimming.webp" alt="pool" />
+        </figure>
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/swimming_fam.webp" alt="pool" />
+        </figure>
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/pool_one.webp" alt="pool" />
+        </figure>
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/pool_two.jpg" alt="pool" />
+        </figure>
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/pool_three.jpg" alt="pool" />
+        </figure>
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/pool_four.jpg" alt="pool" />
+        </figure>
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/pool_five.jpg" alt="pool" />
+        </figure>
+        <figure class="gallery-item" tabindex="0">
+          <img src="./img/pool_six.jpg" alt="pool" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title">Связаться с Нами</h2>
+      <div class="contact-container" tabindex="0">
+        <div class="contact-info" aria-label="Contact information">
+          <p><strong>Телефон:</strong> +7 (999) 999-99-99</p>
+          <p><strong>Email:</strong> <a href="№">crystalclear@pools.ru</a></p>
+          <p><strong>Адрес:</strong> 999 Случайная улица, г. Москва</p>
+        </div>
+
+        <form action="#" method="POST" aria-label="Contact form">
+          <input type="text" name="name" placeholder="Ваше Имя" required aria-required="true" />
+          <input type="email" name="email" placeholder="Ваш Email" required aria-required="true" />
+          <textarea name="message" placeholder="Ваше Сообщение" required aria-required="true"></textarea>
+          <button type="submit">Отправить данные</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    @ 2024 Crystal Clear Pools. Все права защищены.
+  </footer>
+
+</body>
+</html>
