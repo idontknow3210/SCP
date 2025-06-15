@@ -216,11 +216,10 @@ nav ul li a:focus {
 }
 
 .gallery-item:focus-within {
-  margin-top: 20%;
-  margin-left: 25%;
   position: absolute;
+  left: 35%;
   transform: scale(2.3);
-
+  z-index: 100;
 }
 
 .gallery-item img {
@@ -342,8 +341,8 @@ footer {
   }
 
   .gallery-item:focus-within {
+    left: 30%;
     transform: scale(1.7);
-
   }
 
   #hero h1 {
@@ -411,6 +410,7 @@ footer {
 @media (max-width: 500px) {
   .gallery-item:focus-within {
     position: relative;
+    left: 0;
     margin: 0;
     transform: scale(1.2);
     transform-origin: center center;
