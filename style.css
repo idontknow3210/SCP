@@ -216,8 +216,8 @@ nav ul li a:focus {
 }
 
 .gallery-item:focus-within {
-  margin-top: 25vh;
-  margin-left: 25vw;
+  margin-top: 20%;
+  margin-left: 25%;
   position: absolute;
   transform: scale(2.3);
 
